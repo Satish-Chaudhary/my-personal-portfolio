@@ -149,8 +149,8 @@ version1/
 	├── styles.css        # Custom styles and animations
 	├── script.js         # Interactive JS (animations, cursor, etc.)
 	└── Readme.md         # Project documentation
-version2/
-	├── index.html        # Enhanced/alternate version
+version1.2/			# Coming Soon 
+	├── index.html        
 	├── styles.css
 	└── script_enhanced.js
 ```
@@ -161,9 +161,9 @@ version2/
 
 1. **Clone the repository:**
 	 ```sh
-	 git clone https://github.com/yourusername/your-portfolio.git
+	 git clone https://github.com/Satish-Chaudhary/my-personal-portfolio.git
 	 ```
-2. **Open `version1/index.html` in your browser.**
+2. **Open `index.html` in your browser.**
 3. **Customize content, styles, and scripts as needed.**
 
 ---
@@ -179,9 +179,9 @@ version2/
 
 ## 📬 Contact
 
-- **Email:** satishchaudhary@universe.code
-- **LinkedIn:** [LinkedIn Profile](#)
-- **Phone:** +91 XXX XXX XXXX
+- **Email:** satish9619000@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/satish-chaudhary-313648294/
+- **Phone:** +91 XXX XXX 7605
 
 ---
 
