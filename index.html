@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satish Chaudhary</title>
+    <meta name="description" content="Web Developer, UI/UX Designer, and AI-ML Engineer - Building worlds with Web, Design, and AI">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo:wght@300;400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Animation Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor">
+        <div class="cursor-inner">
+            <span class="cursor-icon">&lt;/&gt;</span>
+        </div>
+        <div class="cursor-ripple"></div>
+    </div>
+
+    
+
+    <!-- Cosmic Particles Background -->
+    <div class="cosmic-particles" id="cosmicParticles"></div>
+    
+    <!-- Nebula Background -->
+    <div class="nebula-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="cosmic-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SC</span>
+                <div class="logo-orbit"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-text="Origin">Origin</a></li>
+                <li><a href="#about" class="nav-link" data-text="Story">Story</a></li>
+                <li><a href="#skills" class="nav-link" data-text="Powers">Powers</a></li>
+                <li><a href="#projects" class="nav-link" data-text="Worlds">Worlds</a></li>
+                <li><a href="#achievements" class="nav-link" data-text="Stars">Stars</a></li>
+                <li><a href="#education" class="nav-link" data-text="Knowledge">Knowledge</a></li>
+                <li><a href="#contact" class="nav-link" data-text="Transmission">Transmission</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - The Origin -->
+    <section id="home" class="hero-universe">
+        <div class="universe-container">
+            <div class="hero-content">
+                <div class="cosmic-greeting">
+                    <span class="greeting-text">Hello, Universe</span>
+                </div>
+                <h1 class="cosmic-title">
+                    <span class="title-line">I build worlds with</span>
+                    <span class="title-highlight">Web, Design, and AI</span>
+                </h1>
+                <div class="cosmic-subtitle">
+                    <span class="role-text" id="typewriterRole">Web Developer</span>
+                    <span class="separator">|</span>
+                    <span class="role-static">Building Digital Universes</span>
+                </div>
+                <p class="cosmic-description">
+                    "Code is not just logic, it's storytelling in the language of machines."
+                </p>
+                <div class="cosmic-cta">
+                    <a href="#about" class="cta-button">
+                        <span class="btn-text">Explore My Journey</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="cosmic-orb orb-1"></div>
+                    <div class="cosmic-orb orb-2"></div>
+                    <div class="cosmic-orb orb-3"></div>
+                    <div class="geometric-shape shape-1"></div>
+                    <div class="geometric-shape shape-2"></div>
+                    <div class="geometric-shape shape-3"></div>
+                </div>
+                <div class="hero-avatar">
+                    <div class="avatar-container">
+                        <div class="avatar-glow"></div>
+                        <div class="avatar-content">
+                            <span class="avatar-initials">SC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section - The Origin Story -->
+    <section id="about" class="origin-story">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Origin Story</h2>
+                <p class="section-subtitle">Every great journey begins with a single step into the unknown</p>
+            </div>
+            
+            <div class="story-timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="story-chapter" data-chapter="1">
+                    <div class="chapter-marker">
+                        <div class="marker-glow"></div>
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="chapter-content">
+                        <h3>The Beginning</h3>
+                        <p>Started as a curious mind fascinated by the digital realm, where pixels and code could create endless possibilities.</p>
+                        <span class="chapter-year">2020</span>
+                    </div>
+                </div>
+
+                <div class="story-chapter" data-chapter="2">
+                    <div class="chapter-marker">
+                        <div class="marker-glow"></div>
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="chapter-content">
+                        <h3>First Lines of Code</h3>
+                        <p>Discovered the magic of web development - HTML, CSS, and JavaScript became my tools to craft digital experiences.</p>
+                        <span class="chapter-year">2021</span>
+                    </div>
+                </div>
+
+                <div class="story-chapter" data-chapter="3">
+                    <div class="chapter-marker">
+                        <div class="marker-glow"></div>
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="chapter-content">
+                        <h3>Design Awakening</h3>
+                        <p>Realized that beautiful code needs beautiful design. Ventured into UI/UX to bridge the gap between function and form.</p>
+                        <span class="chapter-year">2022</span>
+                    </div>
+                </div>
+
+                <div class="story-chapter" data-chapter="4">
+                    <div class="chapter-marker">
+                        <div class="marker-glow"></div>
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="chapter-content">
+                        <h3>AI Revolution</h3>
+                        <p>Embraced the future with AI and Machine Learning, blending creativity with artificial intelligence to build smarter solutions.</p>
+                        <span class="chapter-year">2023</span>
+                    </div>
+                </div>
+
+                <div class="story-chapter" data-chapter="5">
+                    <div class="chapter-marker active">
+                        <div class="marker-glow"></div>
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="chapter-content">
+                        <h3>Present Day</h3>
+                        <p>Innovative Web Developer with frontend & backend expertise. Dedicated to blending creativity with technology, building smart, responsive solutions.</p>
+                        <span class="chapter-year">2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section - Superpowers -->
+    <section id="skills" class="superpowers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Cosmic Superpowers</h2>
+                <p class="section-subtitle">Technologies that fuel my journey through the digital universe</p>
+            </div>
+
+            <div class="powers-grid">
+                <div class="power-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="power-cards">
+                        <div class="power-card flip-card" data-skill="html">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fab fa-html5"></i>
+                                    </div>
+                                    <h4>HTML5</h4>
+                                    <p>Structural mastery</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>HTML5 Mastery</h4>
+                                    <p>Semantic markup, accessibility standards, modern web structure with clean, maintainable code architecture.</p>
+                                    <div class="skill-level">
+                                        <span>Expert Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="power-card flip-card" data-skill="css">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fab fa-css3-alt"></i>
+                                    </div>
+                                    <h4>CSS3</h4>
+                                    <p>Visual enchantment</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>CSS3 Sorcery</h4>
+                                    <p>Advanced animations, flexbox/grid mastery, responsive design, and modern CSS features for stunning visuals.</p>
+                                    <div class="skill-level">
+                                        <span>Expert Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="power-card flip-card" data-skill="javascript">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fab fa-js-square"></i>
+                                    </div>
+                                    <h4>JavaScript</h4>
+                                    <p>Interactive magic</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>JS Wizardry</h4>
+                                    <p>ES6+, DOM manipulation, async/await, APIs integration, and modern JavaScript frameworks mastery.</p>
+                                    <div class="skill-level">
+                                        <span>Advanced Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="power-card flip-card" data-skill="react">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fab fa-react"></i>
+                                    </div>
+                                    <h4>React JS</h4>
+                                    <p>Component sorcery</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>React Mastery</h4>
+                                    <p>Hooks, state management, component architecture, and building scalable React applications.</p>
+                                    <div class="skill-level">
+                                        <span>Advanced Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="power-card flip-card" data-skill="java">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fab fa-java"></i>
+                                    </div>
+                                    <h4>Java</h4>
+                                    <p>Backend alchemy</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>Java Development</h4>
+                                    <p>Server-side scripting, database integration, and building robust backend systems with modern Java.</p>
+                                    <div class="skill-level">
+                                        <span>Intermediate Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="power-card flip-card" data-skill="python">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fab fa-python"></i>
+                                    </div>
+                                    <h4>PYTHON</h4>
+                                    <p>AI ML foundations</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>Machine Learning</h4>
+                                    <p>Machine Learning Algorithms, AI integration, and building robust Artificial Intelligence with modern PYTHON.</p>
+                                    <div class="skill-level">
+                                        <span>Intermediate Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="power-card flip-card" data-skill="php">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fab fa-php"></i>
+                                    </div>
+                                    <h4>PHP</h4>
+                                    <p>Backend alchemy</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>PHP Development</h4>
+                                    <p>Server-side scripting, database integration, and building robust backend systems with modern PHP.</p>
+                                    <div class="skill-level">
+                                        <span>Intermediate Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="power-card flip-card" data-skill="nodejs">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fab fa-node"></i>
+                                    </div>
+                                    <h4>Node JS</h4>
+                                    <p>Servers Interfaces</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>NODE Development</h4>
+                                    <p>Server-side scripting, database integration, and building robust backend systems with modern NODE JS.</p>
+                                    <div class="skill-level">
+                                        <span>Beginner Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="power-category">
+                    <h3 class="category-title">Digital Tools</h3>
+                    <div class="power-cards">
+                        <div class="power-card flip-card" data-skill="office">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fas fa-file-alt"></i>
+                                    </div>
+                                    <h4>Office Suite</h4>
+                                    <p>Word, Excel, PowerPoint</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>Office Mastery</h4>
+                                    <p>Advanced document creation, data analysis with Excel, and professional presentation design.</p>
+                                    <div class="skill-level">
+                                        <span>Expert Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="power-card flip-card" data-skill="tally">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fas fa-calculator"></i>
+                                    </div>
+                                    <h4>Tally ERP9</h4>
+                                    <p>Financial mastery</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>ERP Solutions</h4>
+                                    <p>Business accounting, inventory management, and financial reporting with enterprise software.</p>
+                                    <div class="skill-level">
+                                        <span>Advanced Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="power-card flip-card" data-skill="ai">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fas fa-brain"></i>
+                                    </div>
+                                    <h4>AI Tools</h4>
+                                    <p>ChatGPT, DeepSeek, Gemini</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>AI Integration</h4>
+                                    <p>Leveraging cutting-edge AI tools for development, problem-solving, and innovative solution creation.</p>
+                                    <div class="skill-level">
+                                        <span>Advanced Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="power-category">
+                    <h3 class="category-title">Special Abilities</h3>
+                    <div class="power-cards">
+                        <div class="power-card flip-card" data-skill="responsive">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <h4>Responsive Design</h4>
+                                    <p>Cross-device harmony</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>Multi-Device Magic</h4>
+                                    <p>Creating seamless experiences across all devices with mobile-first design and flexible layouts.</p>
+                                    <div class="skill-level">
+                                        <span>Expert Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="power-card flip-card" data-skill="uiux">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fas fa-paint-brush"></i>
+                                    </div>
+                                    <h4>UI/UX Design</h4>
+                                    <p>User experience crafting</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>Design Thinking</h4>
+                                    <p>User-centered design, prototyping, and creating intuitive interfaces that delight and engage users.</p>
+                                    <div class="skill-level">
+                                        <span>Advanced Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="power-card flip-card" data-skill="backend">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fas fa-server"></i>
+                                    </div>
+                                    <h4>Backend Integration</h4>
+                                    <p>Server-side foundations</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>Full-Stack Vision</h4>
+                                    <p>Connecting frontend experiences with robust backend systems, APIs, and database architectures.</p>
+                                    <div class="skill-level">
+                                        <span>Intermediate Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="power-card flip-card" data-skill="creative">
+                            <div class="card-glow"></div>
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="power-icon">
+                                        <i class="fas fa-lightbulb"></i>
+                                    </div>
+                                    <h4>Creative Problem-Solving</h4>
+                                    <p>Innovation catalyst</p>
+                                </div>
+                                <div class="card-back">
+                                    <h4>Solution Architect</h4>
+                                    <p>Transforming complex challenges into elegant solutions through creative thinking and technical expertise.</p>
+                                    <div class="skill-level">
+                                        <span>Expert Level</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section - Universe of Creations -->
+    <section id="projects" class="cosmic-creations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Universe of Creations</h2>
+                <p class="section-subtitle">Digital worlds I've brought to life</p>
+            </div>
+
+            <div class="projects-galaxy">
+                <div class="project-planet" data-project="travel">
+                    <div class="planet-glow"></div>
+                    <div class="planet-surface">
+                        <div class="planet-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Travel Website</h3>
+                        <p>Exploring the world through code</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <span>Explore World</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-planet" data-project="coffee">
+                    <div class="planet-glow"></div>
+                    <div class="planet-surface">
+                        <div class="planet-icon">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Coffee Shop Website</h3>
+                        <p>Brewing digital experiences</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <span>Taste Experience</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-planet" data-project="future">
+                    <div class="planet-glow"></div>
+                    <div class="planet-surface">
+                        <div class="planet-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Future Projects</h3>
+                        <p>Innovations waiting to be born</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>AI/ML</span>
+                            <span>Future Tech</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <span>Coming Soon</span>
+                            <i class="fas fa-clock"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section - Cosmic Milestones -->
+    <section id="achievements" class="cosmic-milestones">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Cosmic Milestones</h2>
+                <p class="section-subtitle">Stars earned on my journey through the tech universe</p>
+            </div>
+
+            <div class="milestones-constellation">
+                <div class="milestone-star" data-achievement="diploma">
+                    <div class="star-glow"></div>
+                    <div class="star-core">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>Diploma in Computer Application</h3>
+                        <p>Foundation of knowledge</p>
+                        <span class="achievement-year">2023</span>
+                    </div>
+                </div>
+
+                <div class="milestone-star" data-achievement="debug">
+                    <div class="star-glow"></div>
+                    <div class="star-core">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>Debug-a-thon Runner-Up</h3>
+                        <p>Problem-solving excellence</p>
+                        <span class="achievement-year">2024</span>
+                    </div>
+                </div>
+
+                <div class="milestone-star" data-achievement="frontend">
+                    <div class="star-glow"></div>
+                    <div class="star-core">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>Frontend Development Certificate</h3>
+                        <p>Simplilearn mastery</p>
+                        <span class="achievement-year">2025</span>
+                    </div>
+                </div>
+
+                <div class="milestone-star" data-achievement="javascript">
+                    <div class="star-glow"></div>
+                    <div class="star-core">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>JavaScript Certificate</h3>
+                        <p>Codecademy validation</p>
+                        <span class="achievement-year">2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section - Knowledge Constellation -->
+    <section id="education" class="knowledge-constellation">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Knowledge Constellation</h2>
+                <p class="section-subtitle">The academic stars that light my path</p>
+            </div>
+
+            <div class="constellation-map">
+                <svg class="constellation-lines" viewBox="0 0 800 400">
+                    <defs>
+                        <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#00FF88;stop-opacity:0"/>
+                            <stop offset="50%" style="stop-color:#00FF88;stop-opacity:1"/>
+                            <stop offset="100%" style="stop-color:#00FF88;stop-opacity:0"/>
+                        </linearGradient>
+                    </defs>
+                    <path class="constellation-path" d="M 100 300 Q 400 150 700 100" stroke="url(#lineGradient)" stroke-width="2" fill="none"/>
+                </svg>
+
+                <div class="education-node" data-education="12th" style="left: 15%; top: 75%;">
+                    <div class="node-glow"></div>
+                    <div class="node-core">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>12th Grade</h3>
+                        <p>Janta Inter College, Kushinagar</p>
+                        <div class="grade">80.8%</div>
+                        <span class="year">2023</span>
+                    </div>
+                </div>
+
+                <div class="education-node" data-education="bca" style="left: 85%; top: 25%;">
+                    <div class="node-glow"></div>
+                    <div class="node-core">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>BCA (Bachelor of Computer Applications)</h3>
+                        <p>Oriental University, Indore</p>
+                        <div class="grade">CGPA 8.15</div>
+                        <span class="year">2026 (Expected)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - Transmission Hub -->
+    <section id="contact" class="transmission-hub">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Transmission Hub</h2>
+                <p class="section-subtitle">Ready to connect across the digital cosmos</p>
+            </div>
+
+            <div class="contact-interface">
+                <div class="contact-info">
+                    <h3>Initialize Connection</h3>
+                    <p>Let's collaborate and create something extraordinary together. The universe is vast, but our ideas can make it feel infinite.</p>
+                    
+                    <div class="transmission-details">
+                        <div class="transmission-item">
+                            <div class="item-glow"></div>
+                            <i class="fas fa-envelope"></i>
+                            <span>satishchaudhary@universe.code</span>
+                        </div>
+                        <div class="transmission-item">
+                            <div class="item-glow"></div>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 XXX XXX XXXX</span>
+                        </div>
+                        <div class="transmission-item">
+                            <div class="item-glow"></div>
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="cosmic-form">
+                    <div class="form-field">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="field-glow"></div>
+                    </div>
+                    
+                    <div class="form-field">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="field-glow"></div>
+                    </div>
+                    
+                    <div class="form-field">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <div class="field-glow"></div>
+                    </div>
+                    
+                    <button type="submit" class="transmission-button">
+                        <span class="btn-text">Send Transmission</span>
+                        <div class="btn-ripple"></div>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Column 1: Quick Links -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Origin</a></li>
+                        <li><a href="#about" class="footer-link">Story</a></li>
+                        <li><a href="#skills" class="footer-link">Powers</a></li>
+                        <li><a href="#projects" class="footer-link">Worlds</a></li>
+                        <li><a href="#contact" class="footer-link">Transmission</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 2: Contact Info -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Contact Coordinates</h3>
+                    <div class="contact-links">
+                        <a href="mailto:satish9619000@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>satish9619000@gmail.com</span>
+                        </a>
+                        <a href="tel:+91XXXXXXX605" class="contact-link">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 XXX XXX 605</span>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 3: Social & Branding -->
+                <div class="footer-column">
+                    <div class="footer-branding">
+                        <div class="footer-logo">
+                            <span class="logo-text">SC</span>
+                            <div class="logo-glow"></div>
+                        </div>
+                        <p class="footer-tagline">"Designed with passion. Built for the future."</p>
+                    </div>
+                    <div class="social-constellation">
+                        <a href="#" class="social-star">
+                            <i class="fab fa-linkedin"></i>
+                            <div class="star-glow"></div>
+                        </a>
+                        <a href="#" class="social-star">
+                            <i class="fab fa-github"></i>
+                            <div class="star-glow"></div>
+                        </a>
+                        <a href="#" class="social-star">
+                            <i class="fab fa-twitter"></i>
+                            <div class="star-glow"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <p class="copyright">&copy; 2024 Satish Chaudhary. All rights reserved across all dimensions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Ambient Universe Music -->
+<audio id="ambientMusic" loop preload="auto">
+  <source src="https://cdn.pixabay.com/audio/2023/02/10/audio_abcdef12345.mp3" type="audio/mpeg">
+  <!-- Replace the URL above with the direct link of the track you pick (from Pixabay or another royalty-free source) -->
+  Your browser does not support the audio element.
+</audio>
+<!-- Music Toggle Button -->
+<button id="musicToggle" class="music-btn">
+  <i id="musicIcon" class="fas fa-volume-mute"></i>
+</button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
