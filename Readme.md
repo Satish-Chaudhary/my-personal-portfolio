@@ -8,7 +8,7 @@
 	<b>Welcome to my digital universe!</b><br>
 	<i>Web Developer | UI/UX Designer | AI-ML Engineer</i>
   </p>
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=500&lines=I+build+worlds+with+Web%2C+Design%2C+and+AI;storytelling+in+the+language+of+machines;futuristic+UI%2C+Modern+Tech%2C+Creative+Code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=550&lines=I+build+worlds+with+Web%2C+Design%2C+and+AI;Storytelling+in+the+language+of+machines;Futuristic+UI%2C+Modern+Tech%2C+Creative+Code" alt="Typing SVG" />
 </div>
 
 ---
